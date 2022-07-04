@@ -53,81 +53,81 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Unleashed',
+			icon: 'briefcase',
+			link: 'https://au.unleashedsoftware.com/v2/Home/ClassicDashboard',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'New Unleashed Order',
+			icon: 'list-plus',
+			link: 'https://au.unleashedsoftware.com/v2/SalesOrder/Update',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Shopify',
+			icon: 'shopping-cart',
+			link: 'https://australian-jet-ski-parts.myshopify.com/admin',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'New Sopify Order',
+			icon: 'list-plus',
+			link: 'https://australian-jet-ski-parts.myshopify.com/admin/draft_orders/new',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'eBay Orders',
+			icon: 'cart',
+			link: 'https://open.inkfrog.com/listings/sold/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
+			name: 'AJSP eBay',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			link: 'https://www.ebay.com.au/usr/australianjetskiparts',
 		},
 	],
 
+// 	secondButtonsContainer: [
+// 		{
+// 			id: '1',
+// 			name: 'Music',
+// 			icon: 'headphones',
+// 			link: 'https://open.spotify.com',
+// 		},
+// 		{
+// 			id: '2',
+// 			name: 'twitter',
+// 			icon: 'twitter',
+// 			link: 'https://twitter.com/',
+// 		},
+// 		{
+// 			id: '3',
+// 			name: 'bot',
+// 			icon: 'bot',
+// 			link: 'https://discord.com/app',
+// 		},
+// 		{
+// 			id: '4',
+// 			name: 'Amazon',
+// 			icon: 'shopping-bag',
+// 			link: 'https://amazon.com/',
+// 		},
+// 		{
+// 			id: '5',
+// 			name: 'Hashnode',
+// 			icon: 'pen-tool',
+// 			link: 'https://hashnode.com/',
+// 		},
+// 		{
+// 			id: '6',
+// 			name: 'Figma',
+// 			icon: 'figma',
+// 			link: 'https://figma.com/',
+// 		},
+// 	],
+// 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
 	// ┴─┘┴└─┘ ┴ └─┘
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'truck',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Aus Post',
+					link: 'https://online.auspost.com.au/eParcel/common/auth/login.do',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Star Track',
+					link: 'https://auspost.com.au/parcel-send/login',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Pack N Send',
+					link: 'https://online.packsend.com.au/Login',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Fastway',
+					link: 'https://myfastway.com.au/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'globe',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'AJSP',
+					link: 'https://www.ajsp.com.au/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Facebook & Instagram Admin',
+					link: 'https://business.facebook.com/latest/home?asset_id=112342082176178&nav_ref=page_banner_navigation',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Live EFTPos',
+					link: 'https://myweb.liveeftpos.com.au/Account/Login?ReturnUrl=%2f',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Impact',
+					link: 'https://ios.net.au/',
 				},
 			],
 		},
