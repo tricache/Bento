@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'Adam',
-	imageBackground: false,
+	imageBackground: background.jpg,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '12c5870ca6992af6f22d9176bb102897', // Write here your API Key
@@ -135,6 +135,54 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
+			icon: 'briefcase',
+			id: '1',
+			links: [
+				{
+					name: 'Unleashed',
+					link: 'https://au.unleashedsoftware.com/v2/Home/ClassicDashboard',
+				},
+				{
+					name: 'New Unleashed Order',
+					link: 'https://au.unleashedsoftware.com/v2/SalesOrder/Update',
+				},
+				{
+					name: 'Shopify',
+					link: 'https://online.packsend.com.au/Login',
+				},
+				{
+					name: 'New Sopify Order',
+					link: 'https://australian-jet-ski-parts.myshopify.com/admin/draft_orders/new',
+				},
+			],
+		},
+		{
+			icon: 'cart',
+			id: '2',
+			links: [
+				{
+					name: 'eBay/Inkfrog Orders',
+					link: 'https://open.inkfrog.com/listings/sold/',
+				},
+				{
+					name: 'AJSP eBay',
+					link: 'https://www.ebay.com.au/usr/australianjetskiparts',
+				},
+				{
+					name: 'eBay Uploads',
+					link: 'https://www.mip.ebay.com/feeds/orderfulfillment?pg=1&psize=25',
+				},
+				{
+					name: 'Fastway',
+					link: 'https://myfastway.com.au/',
+				},
+			],
+		},
+	],
+
+	// Second Links Container
+	secondListsContainer: [
+		{
 			icon: 'truck',
 			id: '1',
 			links: [
@@ -175,54 +223,6 @@ const CONFIG = {
 				{
 					name: 'Impact',
 					link: 'https://ios.net.au/',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
 				},
 			],
 		},
