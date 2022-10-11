@@ -12,22 +12,22 @@ const CONFIG = {
 
 	// General
 	name: 'Adam',
-	imageBackground: false,
+	imageBackground: background.jpg,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Lovley Night',
 
 	// Layout
-	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '12c5870ca6992af6f22d9176bb102897', // Write here your API Key
-	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Onedark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -77,12 +77,6 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'eBay Orders',
-			icon: 'cart',
-			link: 'https://open.inkfrog.com/listings/sold/',
-		},
-		{
-			id: '6',
 			name: 'AJSP eBay',
 			icon: 'shopping-bag',
 			link: 'https://www.ebay.com.au/usr/australianjetskiparts',
