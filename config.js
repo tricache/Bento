@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'Adam',
-	imageBackground: 'assets/background.jpg',
+	imageBackground: 'assets/window-drops-rain-blur.jpg',
 	openInNewTab: true,
 	twelveHourFormat: true,
 
